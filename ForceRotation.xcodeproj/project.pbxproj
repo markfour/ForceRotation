@@ -1,0 +1,505 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C41AFC261CA6543300EEA240 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C41AFC251CA6543300EEA240 /* AppDelegate.swift */; };
+		C41AFC281CA6543300EEA240 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C41AFC271CA6543300EEA240 /* ViewController.swift */; };
+		C41AFC2B1CA6543300EEA240 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C41AFC291CA6543300EEA240 /* Main.storyboard */; };
+		C41AFC2D1CA6543300EEA240 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C41AFC2C1CA6543300EEA240 /* Assets.xcassets */; };
+		C41AFC301CA6543300EEA240 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C41AFC2E1CA6543300EEA240 /* LaunchScreen.storyboard */; };
+		C41AFC3B1CA6543300EEA240 /* ForceRotationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C41AFC3A1CA6543300EEA240 /* ForceRotationTests.swift */; };
+		C41AFC461CA6543300EEA240 /* ForceRotationUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C41AFC451CA6543300EEA240 /* ForceRotationUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C41AFC371CA6543300EEA240 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C41AFC1A1CA6543200EEA240 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C41AFC211CA6543200EEA240;
+			remoteInfo = ForceRotation;
+		};
+		C41AFC421CA6543300EEA240 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C41AFC1A1CA6543200EEA240 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C41AFC211CA6543200EEA240;
+			remoteInfo = ForceRotation;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C41AFC221CA6543200EEA240 /* ForceRotation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ForceRotation.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C41AFC251CA6543300EEA240 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C41AFC271CA6543300EEA240 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C41AFC2A1CA6543300EEA240 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C41AFC2C1CA6543300EEA240 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C41AFC2F1CA6543300EEA240 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C41AFC311CA6543300EEA240 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C41AFC361CA6543300EEA240 /* ForceRotationTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ForceRotationTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C41AFC3A1CA6543300EEA240 /* ForceRotationTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForceRotationTests.swift; sourceTree = "<group>"; };
+		C41AFC3C1CA6543300EEA240 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C41AFC411CA6543300EEA240 /* ForceRotationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ForceRotationUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C41AFC451CA6543300EEA240 /* ForceRotationUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForceRotationUITests.swift; sourceTree = "<group>"; };
+		C41AFC471CA6543300EEA240 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C41AFC1F1CA6543200EEA240 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C41AFC331CA6543300EEA240 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C41AFC3E1CA6543300EEA240 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C41AFC191CA6543200EEA240 = {
+			isa = PBXGroup;
+			children = (
+				C41AFC241CA6543200EEA240 /* ForceRotation */,
+				C41AFC391CA6543300EEA240 /* ForceRotationTests */,
+				C41AFC441CA6543300EEA240 /* ForceRotationUITests */,
+				C41AFC231CA6543200EEA240 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C41AFC231CA6543200EEA240 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C41AFC221CA6543200EEA240 /* ForceRotation.app */,
+				C41AFC361CA6543300EEA240 /* ForceRotationTests.xctest */,
+				C41AFC411CA6543300EEA240 /* ForceRotationUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C41AFC241CA6543200EEA240 /* ForceRotation */ = {
+			isa = PBXGroup;
+			children = (
+				C41AFC251CA6543300EEA240 /* AppDelegate.swift */,
+				C41AFC271CA6543300EEA240 /* ViewController.swift */,
+				C41AFC291CA6543300EEA240 /* Main.storyboard */,
+				C41AFC2C1CA6543300EEA240 /* Assets.xcassets */,
+				C41AFC2E1CA6543300EEA240 /* LaunchScreen.storyboard */,
+				C41AFC311CA6543300EEA240 /* Info.plist */,
+			);
+			path = ForceRotation;
+			sourceTree = "<group>";
+		};
+		C41AFC391CA6543300EEA240 /* ForceRotationTests */ = {
+			isa = PBXGroup;
+			children = (
+				C41AFC3A1CA6543300EEA240 /* ForceRotationTests.swift */,
+				C41AFC3C1CA6543300EEA240 /* Info.plist */,
+			);
+			path = ForceRotationTests;
+			sourceTree = "<group>";
+		};
+		C41AFC441CA6543300EEA240 /* ForceRotationUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C41AFC451CA6543300EEA240 /* ForceRotationUITests.swift */,
+				C41AFC471CA6543300EEA240 /* Info.plist */,
+			);
+			path = ForceRotationUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C41AFC211CA6543200EEA240 /* ForceRotation */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C41AFC4A1CA6543300EEA240 /* Build configuration list for PBXNativeTarget "ForceRotation" */;
+			buildPhases = (
+				C41AFC1E1CA6543200EEA240 /* Sources */,
+				C41AFC1F1CA6543200EEA240 /* Frameworks */,
+				C41AFC201CA6543200EEA240 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ForceRotation;
+			productName = ForceRotation;
+			productReference = C41AFC221CA6543200EEA240 /* ForceRotation.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C41AFC351CA6543300EEA240 /* ForceRotationTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C41AFC4D1CA6543300EEA240 /* Build configuration list for PBXNativeTarget "ForceRotationTests" */;
+			buildPhases = (
+				C41AFC321CA6543300EEA240 /* Sources */,
+				C41AFC331CA6543300EEA240 /* Frameworks */,
+				C41AFC341CA6543300EEA240 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C41AFC381CA6543300EEA240 /* PBXTargetDependency */,
+			);
+			name = ForceRotationTests;
+			productName = ForceRotationTests;
+			productReference = C41AFC361CA6543300EEA240 /* ForceRotationTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C41AFC401CA6543300EEA240 /* ForceRotationUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C41AFC501CA6543300EEA240 /* Build configuration list for PBXNativeTarget "ForceRotationUITests" */;
+			buildPhases = (
+				C41AFC3D1CA6543300EEA240 /* Sources */,
+				C41AFC3E1CA6543300EEA240 /* Frameworks */,
+				C41AFC3F1CA6543300EEA240 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C41AFC431CA6543300EEA240 /* PBXTargetDependency */,
+			);
+			name = ForceRotationUITests;
+			productName = ForceRotationUITests;
+			productReference = C41AFC411CA6543300EEA240 /* ForceRotationUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C41AFC1A1CA6543200EEA240 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = HayashidaKazumi;
+				TargetAttributes = {
+					C41AFC211CA6543200EEA240 = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+					C41AFC351CA6543300EEA240 = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = C41AFC211CA6543200EEA240;
+					};
+					C41AFC401CA6543300EEA240 = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = C41AFC211CA6543200EEA240;
+					};
+				};
+			};
+			buildConfigurationList = C41AFC1D1CA6543200EEA240 /* Build configuration list for PBXProject "ForceRotation" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C41AFC191CA6543200EEA240;
+			productRefGroup = C41AFC231CA6543200EEA240 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C41AFC211CA6543200EEA240 /* ForceRotation */,
+				C41AFC351CA6543300EEA240 /* ForceRotationTests */,
+				C41AFC401CA6543300EEA240 /* ForceRotationUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C41AFC201CA6543200EEA240 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C41AFC301CA6543300EEA240 /* LaunchScreen.storyboard in Resources */,
+				C41AFC2D1CA6543300EEA240 /* Assets.xcassets in Resources */,
+				C41AFC2B1CA6543300EEA240 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C41AFC341CA6543300EEA240 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C41AFC3F1CA6543300EEA240 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C41AFC1E1CA6543200EEA240 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C41AFC281CA6543300EEA240 /* ViewController.swift in Sources */,
+				C41AFC261CA6543300EEA240 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C41AFC321CA6543300EEA240 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C41AFC3B1CA6543300EEA240 /* ForceRotationTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C41AFC3D1CA6543300EEA240 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C41AFC461CA6543300EEA240 /* ForceRotationUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C41AFC381CA6543300EEA240 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C41AFC211CA6543200EEA240 /* ForceRotation */;
+			targetProxy = C41AFC371CA6543300EEA240 /* PBXContainerItemProxy */;
+		};
+		C41AFC431CA6543300EEA240 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C41AFC211CA6543200EEA240 /* ForceRotation */;
+			targetProxy = C41AFC421CA6543300EEA240 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C41AFC291CA6543300EEA240 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C41AFC2A1CA6543300EEA240 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C41AFC2E1CA6543300EEA240 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C41AFC2F1CA6543300EEA240 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C41AFC481CA6543300EEA240 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C41AFC491CA6543300EEA240 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C41AFC4B1CA6543300EEA240 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ForceRotation/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hayashida.sample.ForceRotation;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		C41AFC4C1CA6543300EEA240 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ForceRotation/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hayashida.sample.ForceRotation;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		C41AFC4E1CA6543300EEA240 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ForceRotationTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hayashida.sample.ForceRotationTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ForceRotation.app/ForceRotation";
+			};
+			name = Debug;
+		};
+		C41AFC4F1CA6543300EEA240 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ForceRotationTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hayashida.sample.ForceRotationTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ForceRotation.app/ForceRotation";
+			};
+			name = Release;
+		};
+		C41AFC511CA6543300EEA240 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ForceRotationUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hayashida.sample.ForceRotationUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ForceRotation;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		C41AFC521CA6543300EEA240 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ForceRotationUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hayashida.sample.ForceRotationUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ForceRotation;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C41AFC1D1CA6543200EEA240 /* Build configuration list for PBXProject "ForceRotation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C41AFC481CA6543300EEA240 /* Debug */,
+				C41AFC491CA6543300EEA240 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C41AFC4A1CA6543300EEA240 /* Build configuration list for PBXNativeTarget "ForceRotation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C41AFC4B1CA6543300EEA240 /* Debug */,
+				C41AFC4C1CA6543300EEA240 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C41AFC4D1CA6543300EEA240 /* Build configuration list for PBXNativeTarget "ForceRotationTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C41AFC4E1CA6543300EEA240 /* Debug */,
+				C41AFC4F1CA6543300EEA240 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C41AFC501CA6543300EEA240 /* Build configuration list for PBXNativeTarget "ForceRotationUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C41AFC511CA6543300EEA240 /* Debug */,
+				C41AFC521CA6543300EEA240 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C41AFC1A1CA6543200EEA240 /* Project object */;
+}
