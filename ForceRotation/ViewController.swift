@@ -9,6 +9,7 @@
 import UIKit
 
 class ViewController: UIViewController {
+  @IBOutlet weak var innerViewController: UIViewController!
 
   override func viewDidLoad() {
     super.viewDidLoad()
@@ -21,7 +22,10 @@ class ViewController: UIViewController {
   }
 
   @IBAction func outerroll(sender: AnyObject) {
+    print(innerViewController)
     
+    let value = UIInterfaceOrientation.LandscapeLeft.rawValue
+    UIDevice.currentDevice().setValue(value, forKey: "orientation")
   }
 
 }

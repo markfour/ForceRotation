@@ -45,6 +45,9 @@
                             <constraint firstAttribute="trailing" secondItem="BaD-L6-tiF" secondAttribute="trailing" id="h2d-J7-Pzr"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="innerViewController" destination="BaD-L6-tiF" id="3Ty-rV-dIW"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
