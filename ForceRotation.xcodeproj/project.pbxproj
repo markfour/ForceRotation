@@ -14,6 +14,7 @@
 		C41AFC301CA6543300EEA240 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C41AFC2E1CA6543300EEA240 /* LaunchScreen.storyboard */; };
 		C41AFC3B1CA6543300EEA240 /* ForceRotationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C41AFC3A1CA6543300EEA240 /* ForceRotationTests.swift */; };
 		C41AFC461CA6543300EEA240 /* ForceRotationUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C41AFC451CA6543300EEA240 /* ForceRotationUITests.swift */; };
+		C41AFC541CA655BC00EEA240 /* InnerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C41AFC531CA655BC00EEA240 /* InnerViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		C41AFC411CA6543300EEA240 /* ForceRotationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ForceRotationUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C41AFC451CA6543300EEA240 /* ForceRotationUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForceRotationUITests.swift; sourceTree = "<group>"; };
 		C41AFC471CA6543300EEA240 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C41AFC531CA655BC00EEA240 /* InnerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InnerViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +105,7 @@
 				C41AFC2C1CA6543300EEA240 /* Assets.xcassets */,
 				C41AFC2E1CA6543300EEA240 /* LaunchScreen.storyboard */,
 				C41AFC311CA6543300EEA240 /* Info.plist */,
+				C41AFC531CA655BC00EEA240 /* InnerViewController.swift */,
 			);
 			path = ForceRotation;
 			sourceTree = "<group>";
@@ -256,6 +259,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C41AFC541CA655BC00EEA240 /* InnerViewController.swift in Sources */,
 				C41AFC281CA6543300EEA240 /* ViewController.swift in Sources */,
 				C41AFC261CA6543300EEA240 /* AppDelegate.swift in Sources */,
 			);
@@ -398,6 +402,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = ForceRotation/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.hayashida.sample.ForceRotation;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -409,6 +414,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = ForceRotation/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.hayashida.sample.ForceRotation;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -482,6 +488,7 @@
 				C41AFC4C1CA6543300EEA240 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C41AFC4D1CA6543300EEA240 /* Build configuration list for PBXNativeTarget "ForceRotationTests" */ = {
 			isa = XCConfigurationList;
@@ -490,6 +497,7 @@
 				C41AFC4F1CA6543300EEA240 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C41AFC501CA6543300EEA240 /* Build configuration list for PBXNativeTarget "ForceRotationUITests" */ = {
 			isa = XCConfigurationList;
@@ -498,6 +506,7 @@
 				C41AFC521CA6543300EEA240 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
